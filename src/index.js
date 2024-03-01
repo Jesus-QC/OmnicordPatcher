@@ -52,7 +52,7 @@ export class OmnicordPatcher {
         });
 
         // We try to safely define the property
-        if (!Reflect.defineProperty(targetObj, targetName, {value: defaultImplementation, configurable: true, writable: true})){
+        if (!Reflect.defineProperty(targetObj, targetName, {value: proxy, configurable: true, writable: true})){
             // If it fails, we just assign it
             targetObj[targetName] = proxy;
         }
