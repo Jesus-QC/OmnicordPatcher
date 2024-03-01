@@ -3,7 +3,7 @@ Simplified monkey patching library to help with modding.
 
 # Installation
 This is the classed version of the patcher, for Omnicord or any hermes app you can check the non-classed version in the official Omnicord repo.
-```js
+```shell
 npm i @jesusqc/omnicordpatcher
 ```
 
