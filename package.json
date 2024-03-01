@@ -2,7 +2,7 @@
   "name": "@jesusqc/omnicordpatcher",
   "version": "1.0.0",
   "description": "A simple monkeypatcher wrapper for javascript",
-  "main": "dist/OmnicordPatcher.js",
+  "main": "dist/index.js",
   "scripts": {
     "deploy": "npm run esbuild src/index.js --bundle --minify --outdir=dist"
   },
