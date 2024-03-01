@@ -1,6 +1,6 @@
 // Handles the patching of functions
 // Tried to make it as simple as possible
-export class OmnicordPatcher{
+export class OmnicordPatcher {
     // The functions that have been patched
     // Map<Object, Map<FunctionName, OmnicordFunctionPatch>>
     static patchedObjects = new Map();

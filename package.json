@@ -1,0 +1,29 @@
+{
+  "name": "@jesusqc/omnicordpatcher",
+  "version": "1.0.0",
+  "description": "A simple monkeypatcher wrapper for javascript",
+  "main": "dist/OmnicordPatcher.js",
+  "scripts": {
+    "deploy": "npm run esbuild src/index.js --bundle --minify --outdir=dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Jesus-QC/OmnicordPatcher"
+  },
+  "keywords": [
+    "monkeypatch",
+    "patcher",
+    "patch",
+    "discord",
+    "omnicord"
+  ],
+  "author": "jesusqc",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "github.com/Jesus-QC/OmnicordPatcher/issues"
+  },
+  "homepage": "github.com/Jesus-QC/OmnicordPatcher#readme",
+  "devDependencies": {
+    "esbuild": "^0.20.1"
+  }
+}
