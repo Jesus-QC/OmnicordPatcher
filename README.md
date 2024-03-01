@@ -1,9 +1,15 @@
 # OmnicordPatcher
 Simplified monkey patching library to help with modding.
 
+# Installation
+This is the classed version of the patcher, for Omnicord or any hermes app you can check the non-classed version in the official Omnicord repo.
+```shell
+npm i @jesusqc/omnicordpatcher
+```
+
 # My first patch
 
-First import the patcher class. (Classes are not allowed in hermes, you can find the non classed approach of this patcher inside the Omnicord repo).
+First import the patcher class. 
 ```js
 import {OmnicordPatcher} from "OmnicordPatcher";
 ```
