@@ -32,6 +32,8 @@ OmnicordPatcher.addOverride(targetObject, 'targetMethod', (args, originalMethod)
   console.log("hello from an override");
   // We could call the original method if needed
   // originalMethod(args);
+  // We can modify the result of the patched method here too!
+  return 0;
 });
 ```
 
