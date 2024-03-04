@@ -24,7 +24,7 @@ OmnicordPatcher.addPrefix(targetObject, 'targetMethod', (args) => {
 OmnicordPatcher.addPostfix(targetObject, 'targetMethod', (args, result) => {
   console.log("hello from a postfix");
   // We can modify the result of the patched method!
-  value = 0;
+  return 0;
 });
 
 // This overrides the patched method with another method of our selection
